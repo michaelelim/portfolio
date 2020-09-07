@@ -5,7 +5,7 @@ export default function Body(props) {
   return (
     <div className="body">
       <h1 className="body__logo">{props.name}</h1>
-      <div className="body__hero-image"><img src="../assets/Images/Hero.jpg"/></div>
+      <div><img className="body__hero-image" src={require("../assets/Images/Hero.jpg")} alt="Picture of Me"/></div>
     </div>
   )
 }
