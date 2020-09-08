@@ -6,13 +6,25 @@
   background-color: white;
   color: darkslategrey;
 
-  &__hero-image {
+  &__title {
+   padding-bottom: 1rem; 
+  }
+
+  &__wrapper {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
-    height: 40vh;
-    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__hero-image {
+    width: 30%;
     object-fit: contain;
+    border-radius: 1rem;
+  }
+
+  &__hero-text {
+    font-size: calc(14px + 1vmin);
+    width: 60%;
   }
 }
