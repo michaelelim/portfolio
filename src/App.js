@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header name="outinlimbo"/>
       <Body name="About Me"/>
-      <Footer name="Contact Me"/>
+      <Footer name="Get In Touch"/>
     </div>
   );
 }

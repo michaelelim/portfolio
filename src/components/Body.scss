@@ -7,25 +7,39 @@
   color: darkslategrey;
 
   &__title {
-   padding-bottom: 1rem; 
-   padding-left: 1rem;
+    font-size: calc(10px + 2vmin);
+    padding-bottom: 1rem; 
+    padding-left: 0.25rem;
   }
 
   &__wrapper {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include desktop {
+     padding: 0 4rem; 
+    }
   }
 
   &__hero-image {
+    align-self: flex-start;
     width: 30%;
     object-fit: contain;
     border-radius: 1rem;
   }
 
   &__hero-text {
-    font-size: calc(14px + 1vmin);
-    width: 60%;
+    font-size: calc(9px + 1vmin);
+    width: 65%;
+
+    @include tablet {
+      font-size: calc(12px + 1vmin);
+    }
+
+    @include desktop {
+      font-size: calc(15px + 2vmin);
+    }
   }
 }

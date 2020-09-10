@@ -11,8 +11,9 @@
   justify-content: space-between;
 
   &__logo {
+    font-size: calc(10px + 2vmin);
     width: 20%;
-    padding: 0 1rem;
+    padding: 0 0.25rem;
   }
 
   &__rightwrapper {
@@ -26,6 +27,11 @@
   &__option {
     font-size: calc(8px + 1vmin);
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 0.25rem;
   }
+
+  .bold {
+    font-weight: 700;
+  }
+  
 }
