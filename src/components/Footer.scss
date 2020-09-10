@@ -1,8 +1,12 @@
 @import "../App.scss";
 
 .footer {
-  padding: 1em;
+  padding: 1rem;
   height: 10%;
   background-color: darkslategrey;
   color: white;
+
+  &__logo {
+    padding-left: 1rem;
+  }
 }
