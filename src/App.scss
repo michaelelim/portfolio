@@ -7,6 +7,11 @@
   display: border-box;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;

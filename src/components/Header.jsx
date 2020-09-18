@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import {Link} from 'react-router-dom'
 
 export default function Header(props) {
   return (
@@ -7,7 +8,7 @@ export default function Header(props) {
       <h1 className="header__logo">{props.name}</h1>
       <div className="header__rightwrapper">
         <div className="header__option header__option-bold">Home</div>
-        <div className="header__option">About Me</div>
+        <Link className="header__option" to="/about">About Me</Link>
         <div className="header__option">Projects</div>
         <div className="header__option">Contact Me</div>
       </div>
