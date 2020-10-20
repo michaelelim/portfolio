@@ -9,7 +9,7 @@ export default function Header(props) {
       <div className="header__rightwrapper">
         <div className="header__option header__option-bold">Home</div>
         <Link className="header__option" to="/about">About Me</Link>
-        <div className="header__option">Projects</div>
+        <Link className="header__option" to="/portfolio">Portfolio</Link>
         <div className="header__option">Contact Me</div>
       </div>
     </div>
