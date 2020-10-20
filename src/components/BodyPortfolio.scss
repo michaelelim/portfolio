@@ -31,8 +31,9 @@
   }
 
   &__hero-text {
+    padding: 10px;
     font-size: calc(9px + 1vmin);
-    width: 65%;
+    width: 60%;
 
     @include tablet {
       font-size: calc(10px + 2vmin);
@@ -41,5 +42,15 @@
     @include desktop {
       font-size: calc(15px + 2vmin);
     }
+
+    &-inner {
+      width: 100%;
+      padding: 10px;
+    }
   }
+
+li {
+    margin-left: 10%;
+  }
+
 }
