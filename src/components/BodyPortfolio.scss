@@ -24,6 +24,7 @@
   }
 
   &__hero-image {
+    padding: 10px;
     align-self: flex-start;
     width: 30%;
     object-fit: contain;
@@ -36,21 +37,41 @@
     width: 60%;
 
     @include tablet {
-      font-size: calc(10px + 2vmin);
+      font-size: calc(6px + 2vmin);
     }
 
     @include desktop {
-      font-size: calc(15px + 2vmin);
+      font-size: calc(8px + 2vmin);
     }
 
     &-inner {
       width: 100%;
       padding: 10px;
     }
+
+    &-title {
+      width: 100%;
+      padding: 0px;
+    }
+
+    &-link {
+      font-size: calc(10px + 1vmin);
+      width: 100%;
+      padding: 0px;
+    }
   }
 
 li {
     margin-left: 10%;
   }
+
+p {
+  font-style: italic;
+  font-size: calc(11px + 1vmin);
+}
+
+a {
+  color: darkgrey;
+}
 
 }
