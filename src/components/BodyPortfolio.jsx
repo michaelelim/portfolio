@@ -35,7 +35,7 @@ export default function BodyPortfolio(props) {
           </ul>        
         </section>
         
-        <ReactPlayer className="portfolio__hero-image" url="https://www.youtube.com/watch?v=trd6syJrSp0" width="30%"/>
+        <ReactPlayer className="portfolio__hero-image" url="https://www.youtube.com/watch?v=trd6syJrSp0" width="300px"/>
       </div>
 
       <div className="portfolio__wrapper">
