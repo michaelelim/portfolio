@@ -10,7 +10,7 @@ export default function HeaderAbout(props) {
         <Link className="header__option" to="/">Home</Link>
         <div className="header__option header__option-bold">About Me</div>
         <Link className="header__option" to="/portfolio">Portfolio</Link>
-        <div className="header__option">Contact Me</div>
+        <Link className="header__option" to="/contact">Contact Me</Link>
       </div>
     </div>
   )
