@@ -6,6 +6,10 @@
   background-color: white;
   color: rgb(70, 91, 140);
 
+  &-image {
+    height: 200px;
+  }
+
   &__title {
     font-size: calc(10px + 2vmin);
     padding-bottom: 1rem; 
@@ -14,15 +18,9 @@
 
   &__wrapper {
     display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-start;
-    justify-content: space-between;
-
-    // @include tablet {
-    //   flex-flow: row nowrap;
-    //   justify-content: space-around;
-    // }
-    // @include desktop {padding: 0 4rem; }
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
   }
 
   &__hero-image {
