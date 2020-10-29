@@ -6,10 +6,14 @@
   background-color: white;
   color: rgb(70, 91, 140);
 
+  &__link {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
   &__title {
     font-size: calc(10px + 2vmin);
-    padding-bottom: 1rem; 
-    padding-left: 0.25rem;
+    padding: 1rem 0; 
   }
 
   &__wrapper {
@@ -17,6 +21,7 @@
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 1rem;
 
     @include tablet {
       flex-flow: row nowrap;
@@ -65,12 +70,16 @@
     }
   }
 
-li {margin-left: 10%;}
+li {
+  margin-left: 10%;
+}
 
 p {
   font-style: italic;
   font-size: calc(11px + 1vmin);
 }
 
-a {color: rgb(70, 91, 140);}
+a, a:visited {
+  color: rgb(70, 91, 140);
+}
 }
