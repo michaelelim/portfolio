@@ -8,8 +8,8 @@ export default function BodyPortfolio(props) {
       <h1 className="portfolio__title">{props.name}</h1>
 
         <p className="portfolio__title">To help practice different skills, I have created two more versions of a portfolio:</p>
-        <h2><a className="portfolio__link" href="https://michaelelim.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio using Gatsby</a></h2>
-        <h2><a className="portfolio__link" href="https://michaelelim.wordpress.com/" target="_blank" rel="noopener noreferrer">Portfolio using Wordpress</a></h2>
+        <h2><a className="portfolio__link" href="https://michaelelim.netlify.app/" target="_blank" rel="noopener noreferrer">Gatsby Portfolio</a></h2>
+        <h2><a className="portfolio__link" href="https://michaelelim.wordpress.com/" target="_blank" rel="noopener noreferrer">Wordpress Portfolio</a></h2>
 
       <p className="portfolio__title">Below are two examples of the projects I completed for the Web Dev course at BrainStation.</p>
       
