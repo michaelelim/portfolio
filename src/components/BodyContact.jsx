@@ -10,8 +10,8 @@ export default function BodyPortfolio(props) {
       <p className="contact__title">Interested in contacting me? It's easy!</p>
       
       <div className="contact__wrapper">
-        <a href="mailto:michaelelim@gmail.com" target="_blank" rel="noopener noreferrer"><img className="contact-image" src={mail}/></a>
-        <a href="https://linkedin.com/in/michaelelim" target="_blank" rel="noopener noreferrer"><img className="contact-image" src={linkedin}/></a>
+        <a href="mailto:michaelelim@gmail.com" target="_blank" rel="noopener noreferrer"><img className="contact-image" alt="Gmail" src={mail}/></a>
+        <a href="https://linkedin.com/in/michaelelim" target="_blank" rel="noopener noreferrer"><img className="contact-image" alt="LinkedIn" src={linkedin}/></a>
       </div>
     </div>
   )
